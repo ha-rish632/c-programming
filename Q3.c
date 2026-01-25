@@ -1,9 +1,8 @@
 #include<stdio.h>
 int main ()
 {
-    double a;
-    a=3.0;
-    printf("%lf",a);
-    return 0;
-
+    int a=4;
+    int b=5;
+    int c=a*=b;
+    printf("%d",c);
 }
