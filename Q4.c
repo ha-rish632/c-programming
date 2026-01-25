@@ -1,10 +1,7 @@
 #include<stdio.h>
 int main ()
 {
-    char a ;
-    printf("enter the char:");
-    scanf("%c",&a);
-    printf("%c",a);
-    return 0;
-
+    int a=9;
+    int b=2;
+    printf("%d %d",a/b,a%b);
 }
