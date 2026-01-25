@@ -1,9 +1,7 @@
 #include<stdio.h>
 int main ()
 {
-    int a;
-    a=3;
-    printf("%d",a);
-    return 0;
-
+    int a=10;
+    int b=5;
+    printf("%d",a+=b);
 }
